@@ -5,3 +5,7 @@ const stream = fs.createReadStream('./subfolder/big-file.txt', {highWaterMark: 9
 stream.on('data', (result) => {
     console.log(result)
 })
+
+stream.on('error', (err) => {
+    console.log(err)
+})
