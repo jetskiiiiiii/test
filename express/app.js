@@ -1,13 +1,11 @@
 const express = require('express')
-const path = require('path')
-
+const logger = require('./logger')
 const app = express()
 
-// setup static and middleware
-app.use(express.static('./public'))
+app.use(logger)
 
-app.get('*', (req, res) => {
-    res.status(404).send('404 PAGE NOT FOUND')
+app.get('/', (req, res) => {
+    res.send('Home')
 })
 
 app.listen(3000, () => {
