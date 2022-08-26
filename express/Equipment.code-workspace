@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../Equipment"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../john-smilga-node-express-course"
+		},
+		{
+			"path": "../../node-calendar-sync"
+		},
+		{
+			"path": "../../node-outlook"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"vector": "cpp"
+		}
+	}
+}
